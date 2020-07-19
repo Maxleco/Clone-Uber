@@ -44,5 +44,4 @@ class Usuario{
 
   double get longitude => this._longitude;
   set longitude(double value) => this._longitude = value;
-  
 }

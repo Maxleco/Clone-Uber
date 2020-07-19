@@ -145,7 +145,7 @@ class _HomeState extends State<Home> {
                   child: TextField(
                     controller: _senhaController,
                     obscureText: true,
-                    keyboardType: TextInputType.emailAddress,
+                    keyboardType: TextInputType.number,
                     style: TextStyle(fontSize: 20),
                     decoration: InputDecoration(
                       contentPadding: EdgeInsets.fromLTRB(32, 16, 32, 16),
